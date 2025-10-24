@@ -1,5 +1,9 @@
 package main.backend.devices;
 
-public class Device {
-    
+public interface Device {
+    void turnOn();
+    void turnOff();
+    String getName();
 }
+
+

@@ -1,5 +1,5 @@
 package main.backend.commands;
 
-public class Command {
-    
+public interface Command {
+    void execute();
 }
